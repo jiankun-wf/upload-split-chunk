@@ -1,4 +1,4 @@
-import Upload from './upload/index'
+import Upload from './index'
 
 const file = new File([new Blob(['123123123'])], 'test.txt')
 const split_upload = new Upload(file, {
